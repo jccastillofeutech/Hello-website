@@ -2,7 +2,7 @@
 
 This is a CodeIgniter website created by: 
 <br><br>
-Jade Carlos A. Castillo
+Jade Carlos A. Castillo<br>
 From:
 TW31 - BSITWMA
 <br><br>
