@@ -97,7 +97,7 @@ nav a{
     color: #fff;
 }
 
-.column-right{
+.colright{
     display: flex;
     justify-content: center;
     align-items: center;

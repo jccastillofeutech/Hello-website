@@ -10,7 +10,7 @@
     <nav>
         <div class="logo">Hello!</div>
         <div class="nav">
-            <a href="<?php echo site_url('/')?>" class="nav-link">Home</a>
+            <a href="<?php echo site_url('home')?>" class="nav-link">Home</a>
             <a href="<?php echo site_url('about')?>" class="nav-link">About</a>
             <a href="<?php echo site_url('customers')?>" class="nav-link">Customers</a>
             <a href="<?php echo site_url('users')?>" class="nav-link">Users</a>
