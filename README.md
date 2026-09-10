@@ -9,7 +9,6 @@ TW31 - BSITWMA
 Subject/Topic:
 Web System Technologies - Module 1 - CodeIgniter Foundations
 <br><br>
-Click to access the live site:
-
+<a href="https://hello-9qkg.onrender.com">Click here to access the live site</a>
 <br><br>
 Disclaimer: This is only for educational purposes
