@@ -1,5 +1,7 @@
+.git
+.gitignore
 .env
-vendor/
+vendor
 writable/cache/*
 writable/logs/*
 writable/session/*
