@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+nav{
+    height: 80px;
+    background: #1e80b1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc(100vw - 1300px)/2;
+}
+
+.logo{
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+   padding: 0 32px;
+   font-family: 'Coiny', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 24px;
+    font-family: 'Coiny', sans-serif;
+}
+
+.nav-link{
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #176085;
+}
+
+.hero{
+    background: #1e80b1;
+    overflow: hidden;
+}
+
+.container-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: calc(100vh - 80px);
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 30px;
+}
+
+.colleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    padding: 0 32px;
+}
+
+.colleft h1{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Coiny', sans-serif;
+}
+
+.colleft p{
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.start{
+    display: inline-block;
+    padding: 16px 48px;
+    font-size: 1rem;
+    border: none;
+    background: #fff;
+    color: #1e80b1;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Coiny', sans-serif;
+    text-decoration: none;
+}
+
+.start:hover{
+    background: #176085;
+    color: #fff;
+}
+
+.column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.img-hero{
+    display: block;
+    width: 100%;
+    max-height: 650px;
+    object-fit: contain;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    margin-top: 100px;
+}
+
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.content-card{
+    padding: 16px;
+}
+
+.content-card h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #176085;
+    font-family: 'Coiny', sans-serif;
+}
+
+.content-card p{
+    color: #1e80b1;
+    font-size: 15px;
+    line-height: 1.3;
+}

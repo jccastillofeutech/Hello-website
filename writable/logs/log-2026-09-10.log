@@ -1,0 +1,4 @@
+CRITICAL - 2026-09-10 09:48:28 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): CodeIgniter\Autoloader\Autoloader
+[Method: GET, Route: /]
+in SYSTEMPATH\I18n\TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
