@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Composer
+/vendor/
+
+# Writable folders (cache, logs, sessions, uploads)
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+
+# Test coverage
+/tests/coverage*
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# phpunit
+.phpunit.result.cache
