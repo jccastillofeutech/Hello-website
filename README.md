@@ -1,8 +1,8 @@
 # Hello-website
 
-This is a CodeIgniter website created by: <br><br>
-Jade Carlos A. Castillo
+This is a CodeIgniter website created by: 
 <br><br>
+Jade Carlos A. Castillo
 From:
 TW31 - BSITWMA
 <br><br>
